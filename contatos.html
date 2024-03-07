@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
+    <title>BookShare - Contatos</title>
+</head>
+
+<!-- Conteúdo apresentado na tela. -->
+<body>
+
+	<!-- Agrupa os elementos que compõe o cabeçalho. -->
+	<header>
+		<a href="./layout.html" id="logo">BookShare</a>
+
+		<button id="openMenu">&#9776;</button>
+
+		<!-- Agrupa links de navegação no site. -->
+		<nav id="menu">
+
+			<button id="closeMenu">X</button>
+
+			<a href="layout.html">Home</a>
+			<a href="sobre.html">Sobre</a>
+			<a href="livros.html">Livros</a>
+			<a href="">Contato</a>
+		</nav>
+		
+	</header>
+
+	<!-- Agrupa o conteúdo principal da página ou aplicação. -->
+	<main>
+        <section id="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Entre em contato conosco para obter mais informações ou enviar feedback.</p>
+                <form id="contact-form" method="post" action="#">
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Assunto:</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+	</main>
+
+	<!-- Agrupa informações e links relacionado ao conteúdo principal. -->
+	<aside>
+		<div class="container">
+            <h2>Coleção de livros</h2>
+            <ul class="book-list">
+                <li>
+                    <img src="https://c.pxhere.com/photos/d7/de/book_read_old_literature_pages_books_bookshelf_old_books-495484.jpg!d" alt="Livro 1">
+                    <h3>Nome </h3>
+                    <p>Autor </p>
+                    <p>Descrição</p>
+                </li>
+                <li>
+                    <img src="https://c.pxhere.com/photos/e8/67/book_pile_classic_book_lord_of_the_ring_jrr_tolkien-124168.jpg!d" alt="Livro 2">
+                    <h3>Nome</h3>
+                    <p>Autor</p>
+                    <p>Descrição</p>
+                </li>
+                <li>
+                    <img src="https://c.pxhere.com/photos/d7/de/book_read_old_literature_pages_books_bookshelf_old_books-495484.jpg!d" alt="Livro 1">
+                    <h3>Nome </h3>
+                    <p>Autor </p>
+                    <p>Descrição</p>
+                </li>
+				<li>
+                    <img src="https://c.pxhere.com/photos/e8/67/book_pile_classic_book_lord_of_the_ring_jrr_tolkien-124168.jpg!d" alt="Livro 2">
+                    <h3>Nome</h3>
+                    <p>Autor</p>
+                    <p>Descrição</p>
+                </li>
+            </ul>
+        </div>
+	</aside>
+
+	<!-- Agrupa informações de autoria, direitos autorais, contato, 
+		   mapa do site, links e documento relacionados. -->
+	<footer>
+		<div class="container">
+            <p>&copy; 2024 BookShare. Todos os direitos reservados.</p>
+        </div>
+	</footer>
+
+	<!-- Importação do arquivo JavaScript. -->
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
